@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .image-container {
+            display: inline-block;
+            margin: 10px;
+        }
+        .image-container img {
+            border: 5px solid #333;
+            max-width: 100%;
+            height: auto;
+        }
+        .image-container a img {
+            width: 100px;
+            height: 100px;
+        }
+        .image-left {
+            float: left;
+            clear: both;
+        }
+        .image-right {
+            float: right;
+        }
+        .image-space {
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="image1.jpg" alt="Pic by Nikesh (Mustard field in sunset)">
+    </div>
+    <div class="image-container">
+        <a href="image2.jpg">
+            <img src="image2.jpg" alt="Pic by Nikesh (Empty road in Sunset)">
+        </a>
+    </div>
+    <div class="image-container image-left">
+        <img src="image3.jpg" alt="Pic by Nikesh (Amazing pic of cloud)">
+    </div>
+    <div class="image-container image-space">
+        <img src="image4.jpg" alt="Pic by Nikesh (Swayambhunath stupa)">
+    </div>
+
+    <div class="text-container">
+        <h1>Web Page with Images</h1>
+        <p>This is a simple web page designed with images as per the given specifications. 
+           The images are displayed with borders, resized dimensions, alignment, and spacing as required.</p>
+    </div>
+</body>
+</html>

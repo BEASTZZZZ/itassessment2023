@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikes Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+  
+    <style>
+        /* Custom Styles */
+#about {
+    backdrop-filter: blur(14px) saturate(176%);
+    -webkit-backdrop-filter: blur(14px) saturate(176%);
+ 
+}
+
+.about-box {
+    backdrop-filter: blur(14px) saturate(176%);
+    -webkit-backdrop-filter: blur(14px) saturate(176%);
+    background-color: rgba(17, 25, 40, 0.48);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.about-box h2 {
+  color: #171313;
+  margin-bottom: 20px;
+  font-size: 30px;
+  background: -webkit-linear-gradient(#870d17c7, #b81c1c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-box p {
+  font-size: 16px;
+  line-height: 1.6;
+  color:#ffb74d;
+}
+
+.about-box a {
+  color: #388022;
+  text-decoration: underline;
+}
+
+.about-box a:hover {
+  color: #754ab5;
+}
+
+/* Gesture Controls - Add more styles as needed */
+.about-box {
+  transition: transform 0.2s;
+}
+
+.about-box:hover {
+  transform: scale(1.05);
+}
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+    body{
+        background-image: url(img/4.jpg);
+    }
+
+        /* Add your custom CSS styles here */
+        .container {
+      max-width: 1320px;
+    }
+
+        /* Navbar brand with icon */
+        .navbar-brand i {
+            margin-right: 8px;
+        }
+
+        /* Add more custom styles as needed */
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .navbar-brand i {
+                margin-right: 0;
+            }
+
+            .navbar-brand {
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        /* Custom CSS */
+        /* Add your custom CSS styles here */
+        body {
+            background-color: #f5f5f5;
+        }
+
+        /* Navbar brand with icon */
+        .navbar-brand i {
+            margin-right: 8px;
+        }
+
+        /* Add more custom styles as needed */
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .navbar-brand i {
+                margin-right: 0;
+            }
+
+            .navbar-brand {
+                display: flex;
+                align-items: center;
+            }
+
+            .carousel-height {
+                height: 300px;
+                /* Set your desired height here */
+                overflow: hidden;
+            }
+        }
+
+        @media (min-width: 769px) and (max-width: 14000px) {
+            .navbar-brand i {
+                margin-right: 0;
+            }
+
+            .navbar-brand {
+                display: flex;
+                align-items: center;
+            }
+
+            /* Set carousel height */
+            .carousel-height {
+                height: 500px;
+                scale: 90%;
+                /* Set your desired height here */
+                overflow: hidden;
+            }
+        }
+
+        body {
+            max-width: 1320px;
+            margin: 0 auto;
+            padding: 0px;
+    }
+    </style>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <!-- Navbar brand with icon -->
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-person"></i> Nikesh's Portfolio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <!-- Navbar links with icons -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html"><i class="fas fa-images"></i> Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html"><i class="fas fa-file-alt"></i> Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html"><i class="fas fa-blog"></i> Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Homepage Content -->
+    <div>
+        <div class="row">
+            <div class="col-lg-12">
+
+                <!-- Add the image slider here using Bootstrap Carousel component -->
+                <div id="imageCarousel" style="padding-top: 10px;" class="carousel slide carousel-height"
+                    data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        
+                        <div class="carousel-item active">
+                            <img src="img/ma.jpg" class="d-block w-100" alt="Nikesh's pic">
+                            <div class="carousel-caption">
+                              
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/ho.jpg" class="d-block w-100" alt="Pic by Nikesh">
+                            <div class="carousel-caption">
+                        
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <section id="about" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="about-box">
+          <h2>About Me</h2>
+          <p>I am Nikesh Jung Thapa, a versatile individual with a robust foundation in the realms of cyber security, digital forensics, and creative design. My current role as a Web Designer, Graphics Designer, and Social Media Page Handler at WWhisky Liquor in Austin, Texas, allows me to seamlessly blend my technical expertise with a keen artistic sensibility. I take immense pride in my contributions to enhancing the online presence of "WWhisky's Liquor," harnessing my skills in SEO optimization, social media management, content creation, and graphic design to drive its success.</p>
+          <p>One facet of my journey that speaks to my commitment to authentic leadership is my involvement as the Secretary of the 'Music' Club. Here, I've orchestrated process improvements, ensuring seamless engagement through newsletters, calendar updates, and flawlessly executed events. This experience has honed my organizational prowess, while also nurturing my dedication to fostering a sense of community.</p>
+          <p>My academic journey, featuring a Bachelor's degree in Cyber Security and Digital Forensics from The British College, University of West of England, and a High School Certificate from Gems Institute of Higher Education, showcases my unwavering dedication to knowledge acquisition. It's this passion for learning that has led me to pursue certifications in Web Designing, Network Defense Essentials, Ethical Hacking Essentials, Digital Forensics Essentials, and even Barista proficiency – a testament to my belief in holistic growth.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="about-box">
+          <h2>Music and Creative Expression</h2>
+          <p>My affinity for music has also been a driving force in my life. Leading a student orchestral band and serving as the Lead Flutist in the "GEMS ORCHESTRA," I've been able to channel my creativity and passion for music into captivating performances and innovative musical collaborations. It's in these moments that I truly thrive, combining my analytical thinking with creative expression.</p>
+          <p>In my pursuit of excellence, I've also explored a plethora of interests – from honing my technical acumen to embracing the world of creative writing, playing the guitar, and indulging in athletic pursuits. This diversity of skills allows me to approach challenges with a strategic mindset, always seeking innovative solutions.</p>
+          <p>I believe in the power of connectivity and collaboration. If you'd like to connect with me and explore potential synergies, feel free to reach out to me on LinkedIn at <a href="www.linkedin.com/in/nikesh-jung-thapa-b8b660285" target="_blank">www.linkedin.com/in/nikesh-jung-thapa-b8b660285</a> or drop me an email at <a href="mailto:nikeshjt1212@gmail.com">nikeshjt1212@gmail.com</a>. I'm excited to embark on new journeys and make meaningful contributions wherever I go.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+             
+              <a href="https://github.com/BEASTZZZZ" target="_blank" class="text-white me-3">
+                <i class="fab fa-github"></i>
+              </a>
+              
+              <a href="mailto:nikeshjt1212@gmail.com" class="text-white me-3">
+                <i class="fas fa-envelope"></i>
+              </a>
+              
+              <a href="https://www.facebook.com/nikesh.thapa.1481" target="_blank" class="text-white me-3">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              
+              <p class="mb-0">Nikesh Jung Thapa</p>
+              <p class="mb-0">Phone: +977-9863450092</p>
+            </div>
+            <div class="col-lg-4">
+              
+              <p class="mb-0">&copy; 2023 Nikesh Portfolio. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+         
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+    </body>
+
+</html>

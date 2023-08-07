@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikesh Portfolio - Blog</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Custom CSS -->
+  <style>
+    
+    body {
+      background-color: #f5f5f5;
+      max-width: 1320px;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Set the maximum width for the entire page */
+    .container {
+      max-width: 1320px;
+    }
+
+    /* Blog post style */
+    .blog-post {
+      border: 1px solid #ddd;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+    }
+
+    .blog-post h2 {
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    .blog-post p {
+      margin-bottom: 10px;
+    }
+
+    .blog-post img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+
+    /* Comment form style */
+    .comment-form {
+      margin-top: 20px;
+    }
+
+    .comment-form textarea {
+      width: 100%;
+      resize: vertical;
+      min-height: 100px;
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+
+    .comment-form button {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <!-- Navbar brand with icon -->
+      <a class="navbar-brand" href="#">
+        <i class="fas fa-person"></i> Nikesh's Portfolio
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <!-- Navbar links with icons -->
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html"><i class="fas fa-images"></i> Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html"><i class="fas fa-file-alt"></i> Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html"><i class="fas fa-blog"></i> Blog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Blog Content -->
+  <div class="container mt-4">
+    <div class="blog-post">
+      <h2 onclick="openPost('post1.html')">Exploring the Art of Web Design: Tips for Beginners</h2>
+      <img src="img/thumbnail1.jpg" alt="Exploring the Art of Web Design: Tips for Beginners Thumbnail">
+      <p>
+        Are you interested in venturing into the world of web design? In this blog post, we'll dive into 
+        the fundamentals of web design and provide valuable insights for beginners. From understanding the 
+        importance of user experience (UX) to mastering color theory and typography, we'll cover key principles 
+        that can help you create visually appealing and user-friendly websites. Whether you're a budding 
+        web designer or just curious about the art behind captivating websites, this post is your guide to 
+        getting started on your web design journey.
+      </p>
+      <div class="comment-form">
+        <textarea placeholder="Leave a comment"></textarea>
+        <button type="button" class="btn btn-primary">Submit Comment</button>
+      </div>
+    </div>
+
+    <div class="blog-post">
+      <h2 onclick="openPost('post2.html')">Unlocking the Power of Cyber Security: A Closer Look at Digital Forensics</h2>
+      <img src="img/thumbnail2.jpg" alt="Unlocking the Power of Cyber Security: A Closer Look at Digital Forensics Thumbnail">
+      <p>
+        In an increasingly digital world, the importance of cyber security cannot be overstated. In this blog 
+        article, we'll delve into the realm of digital forensics—a crucial aspect of cyber security. Learn how 
+        digital forensics experts investigate cybercrimes, recover data, and analyze digital evidence to 
+        uncover the truth. We'll explore real-world case studies and highlight the tools and techniques used 
+        to solve complex cyber incidents. Whether you're a tech enthusiast, a student of cyber security, or 
+        simply curious about the inner workings of digital investigations, this post offers an intriguing 
+        glimpse into the world of digital forensics.
+      </p>
+      <div class="comment-form">
+        <textarea placeholder="Leave a comment"></textarea>
+        <button type="button" class="btn btn-primary">Submit Comment</button>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <!-- GitHub Icon -->
+          <a href="https://github.com/BEASTZZZZ" target="_blank" class="text-white me-3">
+            <i class="fab fa-github"></i>
+          </a>
+          <!-- Email Icon -->
+          <a href="mailto:nikeshjt1212@gmail.com" class="text-white me-3">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <!-- Facebook Icon -->
+          <a href="https://www.facebook.com/nikesh.thapa.1481" target="_blank" class="text-white me-3">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <!-- Contact Information -->
+          <p class="mb-0">Nikesh Jung Thapa</p>
+          <p class="mb-0">Phone: +977-9863450092</p>
+        </div>
+        <div class="col-lg-4">
+          <!-- Copyright Notice -->
+          <p class="mb-0">&copy; 2023 Nikesh Portfolio. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script>
+    // Open blog post when heading is clicked
+    function openPost(postUrl) {
+      window.location.href = postUrl;
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikesh Portfolio - Resume</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <style>
+    
+    body {
+      background-color: #f5f5f5;
+      max-width: 1320px;
+      font-family: Arial, sans-serif;
+    }
+
+    
+    .container {
+      max-width: 1320px;
+    }
+
+    
+    .resume-header {
+      display: flex;
+      align-items: center;
+    }
+
+    .resume-image {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+
+   
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    /* Skills table */
+    .skills-table {
+      margin-top: 30px;
+    }
+
+    .skills-table th, .skills-table td {
+      padding: 8px 10px;
+    }
+
+    /* Education table */
+    .education-table {
+      margin-top: 30px;
+    }
+
+    .education-table th, .education-table td {
+      padding: 10px;
+    }
+
+    
+    h1, h2 {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <!-- Navbar brand with icon -->
+      <a class="navbar-brand" href="#">
+        <i class="fas fa-person"></i> Nikesh's Portfolio
+        
+     </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <!-- Navbar links with icons -->
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html"><i class="fas fa-images"></i> Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html"><i class="fas fa-file-alt"></i> Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html"><i class="fas fa-blog"></i> Blog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Resume Content -->
+  <div class="container mt-4">
+    <div class="resume-header">
+      <img src="img/NikeshJT.jpg" alt="Profile Image" class="resume-image">
+      <h1>Nikesh Jung Thapa</h1>
+    </div>
+
+    <h2>Personal Information</h2>
+    <table>
+      <tr>
+        <td><strong>Age:</strong></td>
+        <td>21</td>
+      </tr>
+      <tr>
+        <td><strong>Address:</strong></td>
+        <td>Annapurna Chowk, Kathmandu</td>
+      </tr>
+      <tr>
+        <td><strong>Email:</strong></td>
+        <td>nikeshjt1212@gmail.com</td>
+      </tr>
+      <tr>
+        <td><strong>Phone:</strong></td>
+        <td>+977-9863450092</td>
+      </tr>
+    </table>
+
+    <h2>Skills</h2>
+    <table class="skills-table">
+      <tr>
+        <th>Programming Languages</th>
+        <th>Frameworks & Libraries</th>
+        <th>Tools & Technologies</th>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>Bootstrap</td>
+        <td>Git</td>
+      </tr>
+      <tr>
+        <td>C++</td>
+        <td>Flutter</td>
+        <td>VS Code</td>
+      </tr>
+      <tr>
+        <td>Python</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+
+    <h2>Certification and Relevent Skills</h2>
+    <table class="relevent-skill">
+      <tr>
+        <th>Certificate</th>
+        <th>Institution</th>
+        <th>Certification Date</th>
+      </tr>
+      <tr>
+        <td>4 months course in Web-Designing through Hostinger </td>
+        <td>Hostinger</td>
+        <td>17th June 2022</td>
+      </tr>
+      <tr>
+        <td>Certification of being a certified Barista</td>
+        <td>COCINA Mitho cha</td>
+        <td>13th December 2022</td>
+      </tr>
+      <tr>
+        <td>Graphics Designing Course</td>
+        <td>Hostinger</td>
+        <td>14th March 2023</td>
+      </tr>
+      <tr>
+        <td>Certification of Network Defense Essentials</td>
+        <td>EC Council</td>
+        <td>17th June 2022</td>
+      </tr>
+      <tr>
+        <td>Certification of Ethical Hacking Essentials</td>
+        <td>EC Council</td>
+        <td>05th April 2023</td>
+      </tr>
+      <tr>
+        <td>Certification of Digital Forensics Essentials</td>
+        <td>EC Council</td>
+        <td>09th July 2023</td>
+      </tr>
+    </table>
+
+    <h2>Education</h2>
+    <table class="education-table">
+      <tr>
+        <th>Degree</th>
+        <th>University</th>
+        <th>Institution</th>
+        <th>Year</th>
+      </tr>
+      <tr>
+        <td>SEE</td>
+        <td>NEB</td>
+        <td>Graded English Medium School</td>
+        <td>2019-2022</td>
+      </tr>
+      <tr>
+        <td>Highschool</td>
+        <td>HSEB</td>
+        <td>GEMS Institute of Higher Education</td>
+        <td>2019-2022</td>
+      </tr>
+      <tr>
+        <td>BSc. Cyber Security and Digital Forensics</td>
+        <td>University of West of England</td>
+        <td>University of West of England</td>
+        <td>2023-2027</td>
+      </tr>
+    </table>
+
+  
+
+  </div>
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <!-- GitHub Icon -->
+          <a href="https://github.com/BEASTZZZZ" target="_blank" class="text-white me-3">
+            <i class="fab fa-github"></i>
+          </a>
+          <!-- Email Icon -->
+          <a href="mailto:nikeshjt1212@gmail.com" class="text-white me-3">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <!-- Facebook Icon -->
+          <a href="https://www.facebook.com/nikesh.thapa.1481" target="_blank" class="text-white me-3">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <!-- Contact Information -->
+          <p class="mb-0">Nikesh Jung Thapa</p>
+          <p class="mb-0">Phone: +977-9863450092</p>
+        </div>
+        <div class="col-lg-4">
+          <!-- Copyright Notice -->
+          <p class="mb-0">&copy; 2023 Nikesh Portfolio. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
